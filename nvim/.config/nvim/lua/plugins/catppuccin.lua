@@ -4,6 +4,8 @@ return {
   priority = 1000,
   lazy = false,
   config = function()
-    vim.cmd.colorscheme "catppuccin-mocha"
+    flavour = "macchiato"
+    vim.cmd.colorscheme "catppuccin"
   end
 }
+
